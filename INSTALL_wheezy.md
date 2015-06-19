@@ -1,4 +1,15 @@
-You need Python 3.4 running, so you can install a virtualenv like this:
+# pyddhcpd - Server for distributed DHCP
+
+[![Build Status](https://api.travis-ci.org/tcatm/pyddhcpd.svg?branch=master)](https://travis-ci.org/tcatm/pyddhcpd)
+
+
+# Dependencies
+
+- Python 3.4
+
+# Installation
+
+Most Gateways still run on Debian wheezy which does not contain Python 3.4 in its repositories, so you can install a virtualenv like this:
 
 ```
 echo "build and install 3.4.3 as root"
@@ -25,4 +36,8 @@ echo "start pyddhcpd"
 python3 /opt/pyddhcpd/pyddhcpd.py
 ```
 
-For Routers you find a sndbox here: http://map.sb.freifunk.ruhr/gluon/experimental/20
+# Links
+
+* Concept: https://gist.github.com/tcatm/2dd0e6699f2a153505d0#file-ddhcpd-md
+* Sandbox: Firmware: http://map.sb.freifunk.ruhr/gluon/experimental/20
+* Forum: https://forum.freifunk.net/t/experimenteller-server-fuer-verteiltes-dhcp
